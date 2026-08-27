@@ -10,7 +10,7 @@
 <body>
     <h2>Ifood</h2>
 
-    <button type="button" onclick="window.location.href='public/clientes/add_cliente.php'">Cadastrar Cliente</button>
+    <button type="button" onclick="window.location.href='public/clientes/add_clientes.php'">Cadastrar Cliente</button>
     <button type="button" onclick="window.location.href='public/restaurantes/add_restaurantes.php'">Cadastrar Restaurante</button>
     <button type="button" onclick="window.location.href='public/pedidos/add_pedidos.php'">Cadastrar Pedido</button>
 
@@ -39,7 +39,7 @@
                 <td><?php echo $cliente['telefone']; ?></td>
                 <td><?php echo $cliente['endereco']; ?></td>
                 <td>
-                    <button type="button" onclick="window.location.href='public/clientes/edit_cliente.php?id=<?php echo $cliente['id']; ?>'">Editar</button>
+                    <button type="button" onclick="window.location.href='public/clientes/edit_clientes.php?id=<?php echo $cliente['id']; ?>'">Editar</button>
                     <button type="button" onclick="if (confirm('Tem certeza que deseja excluir este cliente?')) { window.location.href='public/clientes/delete_cliente.php?id=<?php echo $cliente['id']; ?>'; }">Excluir</button>
                 </td>
             </tr>
