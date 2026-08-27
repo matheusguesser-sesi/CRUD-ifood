@@ -2,7 +2,7 @@
 
 $host = 'localhost';
 $username = 'root';
-$pass = '';
+$pass = 'root';
 $dbname = 'matheus_ifood';
 
 $conn = new mysqli($host, $username, $pass, $dbname);

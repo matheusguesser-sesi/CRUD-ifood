@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerenciador de Petshop</title>
+    <title>Ifood</title>
 </head>
 
 <body>
-    <h2>Pet Show!</h2>
+    <h2>Ifood</h2>
 
     <button type="button" onclick="window.location.href='public/clientes/add_cliente.php'">Cadastrar Cliente</button>
     <button type="button" onclick="window.location.href='public/restaurantes/add_restaurantes.php'">Cadastrar Restaurante</button>
@@ -78,6 +78,8 @@
         <?php
         }
         ?>
+        </table>
+
 
         <h2>Lista de Pedidos</h2>
     <table>
